@@ -127,7 +127,7 @@ main{
 
 .hero{
   padding-top: 45px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 .hero::before{
@@ -137,7 +137,7 @@ main{
   background-image: url("../images/hero.png");
   background-size: 160px 160px;
   top: -57px;
-  left: calc(50% - 73px);
+  left: calc(50% - 110px);
   display: block;
   content: "";
 }
@@ -146,8 +146,8 @@ main{
   background-image:
   url("../images/hero1-bgi.png");
   background-repeat: no-repeat;
-  background-size: 710px 696px;
-  background-position: calc(50% + 350px) calc(50% - 107px);
+  background-size: contain;
+  background-position: calc(50% + 350px) calc(100%);
 }
 
 
@@ -192,6 +192,7 @@ main{
 }
 
 .hero-button{
+  display: inline-block;
   padding: 16px 24px;
   font-style: normal;
   font-weight: 500;
@@ -212,7 +213,10 @@ main{
 ---------------- COLLECTION -------------------------
 -----------------------------------------------------
 --------------------------------------------------------- */
-
+.collection{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .collection__inner::before{
   position: absolute;
@@ -248,9 +252,6 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
   padding: 20px 20px 50px;
 }
@@ -324,10 +325,10 @@ main{
   height: 375px;
 }
 
-.item__img:nth-child(2n + 2){
-  margin-left: 117px;
+.odd{
+  margin-right: 117px;
 }
 
-.item__img:nth-child(2n + 1){
-  margin-right: 117px;
+.even{
+  margin-left: 117px;
 }
