@@ -340,7 +340,22 @@ main{
 /*------------- WHY ------------ */
 
 .why{
+  position: relative;
   padding-bottom: 290px;
+}
+
+.why__inner::before{
+  position: absolute;
+  top: calc(50% - 246px);
+  left: calc(50% - 760px);
+  background-image: url("../images/whybefore.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 5;
+  width: 140px;
+  height: 144px;
+  display: block;
+  content: "";
 }
 
 .why__inner{
@@ -422,6 +437,7 @@ main{
 /*============== HOW ===========*/
 
 .how{
+  position: relative;
   margin-bottom: 50px;
 }
 
@@ -430,6 +446,20 @@ main{
   background-image: url("../images/header-bgi.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.how__inner::after{
+  position: absolute;
+  top: calc(50% - 365px);
+  right: calc(50% - 550px);
+  background-image: url(../images/howafter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 192px;
+  height: 229px;
+  display: block;
+  transform: rotate(10deg);
+  content: "";
 }
 
 .how__tittle{
