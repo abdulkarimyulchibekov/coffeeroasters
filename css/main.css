@@ -162,6 +162,8 @@ main{
   background-blend-mode: overlay;
 }
 
+
+
 .hero__inner{
   padding-top: 154px;
   padding-bottom: 250px;
@@ -623,3 +625,5 @@ main{
 .footer__subitem:last-child{
   margin: 0;
 }
+
+
