@@ -17,7 +17,7 @@
   display: block;
   width: 402px;
   height: 373px;
-  background-image: url("../images/cbgi1.png");
+  background-image: url("../../images/collection_bgi/cbgi1.png");
   background-repeat: no-repeat;
   transform: rotate(22deg);
   content: "";
@@ -31,7 +31,7 @@
   content: "";
   width: 423px;
   height: 477px;
-  background-image: url("../images/cbgi2-14.png"),url("../images/cbgi2-2.png");
+  background-image: url("../../images/collection_bgi/cbgi2-14.png"),url("../../images/collection_bgi/cbgi2-2.png");
   background-repeat: no-repeat;
   background-position: center, top 200px left 140px;
   transform:rotate(0), rotate(-127.56deg);
@@ -55,7 +55,7 @@
   height: 285px;
   top: calc(50% + 380px);
   left: calc(50% - 910px);
-  background-image: url("../images/cbgi3.png");
+  background-image: url("../../images/collection_bgi/cbgi3.png");
   background-repeat: no-repeat;
   content: "";
 }
