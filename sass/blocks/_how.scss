@@ -1,0 +1,128 @@
+/*============== HOW ===========*/
+
+.how{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.how__inner{
+  background-color: var(--main-how-bgi);
+  background-image: url("../images/header-bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how__inner::after{
+  position: absolute;
+  top: calc(50% - 365px);
+  right: calc(50% - 550px);
+  background-image: url(../images/howafter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 192px;
+  height: 229px;
+  display: block;
+  transform: rotate(10deg);
+  content: "";
+}
+
+.how__tittle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  font-variant: small-caps;
+  color: var(--main-why-color);
+  padding-top: 50px;
+}
+
+.how__list{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  
+  background-image: url("../images/how.png");
+  background-repeat: no-repeat;
+  background-size: 899px 4px;
+  background-position: top 30px left 31px; 
+}
+
+.subitem__box{
+  display: inline-block;
+  background-color: var(--main-collection-bgc);
+  border: 4px solid #C99B67;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.subitem__text{
+  background-color: var(--main-collection-bgc);
+}
+
+
+.subitem__number{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  font-variant: small-caps;
+  color: var(--main-color);
+  opacity: 0.8;
+  text-align: right;
+  margin: 0;
+  margin-bottom: 45px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.subitem__title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  color: var(--main-color);
+  margin: 0;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 231px;
+}
+
+.subitem__desc{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-color);
+  width: 385px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.how__button{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.button__link{
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  color: var(--main-why-color);
+  mix-blend-mode: normal;
+  text-decoration: none;
+  background-color: var(--main-why-bgc);
+  border-radius: 100px;
+  padding: 16px 24px;
+}
