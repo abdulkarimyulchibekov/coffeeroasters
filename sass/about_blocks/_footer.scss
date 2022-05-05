@@ -1,0 +1,60 @@
+/*=========== FOOTER ========== */
+
+.footer{
+  background-color: #F3D7B7;
+  background-image: url("../images/header-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: overlay;
+}
+
+.footer__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px 50px;
+}
+
+.footer__nav{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.subitem{
+  margin-right: 40px;
+}
+
+.subitem__link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.subitem:last-child{
+  margin: 0;
+}
+
+.footer__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__subitem{
+  margin-right: 30px;
+}
+
+.footer__subitem:last-child{
+  margin: 0;
+}

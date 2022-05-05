@@ -1,0 +1,67 @@
+/*------------ COMMITMENT --------- */
+
+.commitment{
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.commitment{
+  background-color: #f8f8f2;
+  background-image: url("../images/header-bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px ;
+  margin-bottom: 160px;
+}
+
+.commitment__inner::before{
+  position: absolute;
+  top: calc(50% - 300px);
+  left: calc(50% - 900px);
+  display: block;
+  width: 402px;
+  height: 402px;
+  background-image: url("../images/about__us/commitment_bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.commitment__img{
+  padding-left: 165px;
+  margin-right: 185px;
+}
+
+.commitment__content{
+  display: flex;
+  align-items: center;
+  padding-top: 160px;
+  /* justify-content: space-between; */
+}
+
+.text{
+  width: 626px;
+}
+
+.text__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  font-variant: small-caps;
+  color: #000000;
+}
+
+.text__desc{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}

@@ -1,0 +1,52 @@
+/* =========== QUALITY -------- */
+
+.quality{
+  position: relative;
+  background-color: #C99B67;
+  background-image: url("../images/header-bgi.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: left top;
+  background-blend-mode: overlay;
+}
+
+.quality__inner::after{
+  position: absolute;
+  top: calc(50% - 340px);
+  left: calc(50% + 153px);
+  display: block;
+  width: 550px;
+  height: 500px;
+  background-image: url("../images/about__us/quality__bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.quality__content{
+  padding-top: 100px;
+  padding-left: 143px;
+  padding-bottom: 118px;
+  /* width: 639px; */
+}
+
+.quality__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+
+.quality__desc{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 639px;
+}
+
