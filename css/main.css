@@ -1245,19 +1245,30 @@ main {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .uk {
   position: relative;
   display: inline-block;
   background-color: #f8f8f2;
+  width: 433px;
   margin-bottom: 100px;
+  margin-left: 20px;
+}
+
+.uk:nth-child(:first-child) {
+  margin: 0;
 }
 
 .uk::after {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 45px;
+  right: 55px;
   display: inline-block;
   width: 120px;
   height: 143px;
@@ -1274,10 +1285,9 @@ main {
   line-height: 47px;
   font-variant: small-caps;
   color: #333333;
-  width: 163px;
+  width: 231px;
   margin: 0;
   padding-top: 140px;
-  padding-right: 250px;
   padding-left: 20px;
 }
 
@@ -1291,6 +1301,22 @@ main {
   margin: 0;
   padding-left: 20px;
   padding-bottom: 40px;
+}
+
+.canada {
+  padding-top: 187px;
+}
+
+.canada__address {
+  width: 178px;
+}
+
+.australia {
+  padding-top: 187px;
+}
+
+.australia__address {
+  width: 156px;
 }
 
 /*=========== FOOTER ========== */
