@@ -499,6 +499,12 @@ img {
   margin: 0;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .header {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+}
+
 /* =====================================
 ================= HERO ================ 
 ======================================*/
@@ -583,6 +589,18 @@ main {
   background-color: var(--hero-button-bgc);
   border: 0;
   border-radius: 100px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero__section {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  .hero::before {
+    background-image: url("../images/hero@2x.png");
+  }
+  .hero {
+    background-image: url("../images/hero1-bgi@2x.png");
+  }
 }
 
 /*--------------------------------------------------
@@ -717,6 +735,21 @@ main {
 
 .even {
   margin-left: 117px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .collection__inner {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  .collection__inner::before {
+    background-image: url("../../images/collection_bgi/cbgi1@2x.png");
+  }
+  .collection__inner::after {
+    background-image: url("../../images/collection_bgi/cbgi2-14@2x.png"), url("../../images/collection_bgi/cbgi2-2.@2xpng");
+  }
+  .collection__content::before {
+    background-image: url("../../images/collection_bgi/cbgi3@2x.png");
+  }
 }
 
 /*------------- WHY ------------ */
@@ -950,6 +983,18 @@ main {
   padding: 16px 24px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .how__inner {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  .how__inner::after {
+    background-image: url(../images/howafter.png);
+  }
+  .how__list {
+    background-image: url("../images/how@2x.png");
+  }
+}
+
 /* HEADER  */
 .header {
   background-color: #F3D7B7;
@@ -1014,14 +1059,20 @@ main {
   margin: 0;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .header {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+}
+
 /* =====================================
 ================= HERO ================ 
 ======================================*/
-.hero {
+.about-hero {
   padding-top: 45px;
 }
 
-.hero::before {
+.about-hero::before {
   position: absolute;
   width: 160px;
   height: 160px;
@@ -1033,7 +1084,7 @@ main {
   content: "";
 }
 
-.hero {
+.about-hero {
   background-image: url("../images/about__us/herobgi.png");
   background-repeat: no-repeat;
   background-size: 710px 596px;
@@ -1050,17 +1101,17 @@ main {
   background-blend-mode: overlay;
 }
 
-.hero__inner {
+.about-hero__inner {
   padding-top: 154px;
   padding-bottom: 250px;
 }
 
-.hero__left {
+.about-hero__left {
   margin-left: 150px;
   width: 372px;
 }
 
-.hero__title {
+.about-hero__title {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -1070,7 +1121,7 @@ main {
   margin-bottom: 24px;
 }
 
-.hero__desc {
+.about-hero__desc {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1094,6 +1145,18 @@ main {
   background-color: #0A775F;
   border: 0;
   border-radius: 100px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  .hero {
+    background-image: url("../images/about__us/herobgi@2x.png");
+  }
+  .hero::before {
+    background-image: url("../images/hero@2x.png");
+  }
 }
 
 /*------------ COMMITMENT --------- */
@@ -1165,6 +1228,15 @@ main {
   font-size: 18px;
   line-height: 30px;
   color: #333333;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .commitment {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  .commitment__inner::before {
+    background-image: url("../images/about__us/commitment_bgi@2x.png");
+  }
 }
 
 /* =========== QUALITY -------- */
@@ -1391,5 +1463,11 @@ main {
 
 .footer__subitem:last-child {
   margin: 0;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .footer {
+    background-image: url("../images/header-bgi@2x.png");
+  }
 }
 /*# sourceMappingURL=main.css.map */

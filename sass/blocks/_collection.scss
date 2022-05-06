@@ -125,3 +125,29 @@
   margin-left: 117px;
 }
 
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .collection__inner {
+  background-image: url("../images/header-bgi@2x.png");
+  }
+
+  .collection__inner::before{
+  background-image: url("../../images/collection_bgi/cbgi1@2x.png");
+  }
+
+  .collection__inner::after{
+  background-image: url("../../images/collection_bgi/cbgi2-14@2x.png"),url("../../images/collection_bgi/cbgi2-2.@2xpng");
+  }
+
+  .collection__content::before{
+  background-image: url("../../images/collection_bgi/cbgi3@2x.png");
+  }
+} 
+

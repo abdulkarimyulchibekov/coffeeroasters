@@ -2,11 +2,11 @@
 ================= HERO ================ 
 ======================================*/
 
-.hero{
+.about-hero{
   padding-top: 45px;
 }
 
-.hero::before{
+.about-hero::before{
   position: absolute;
   width: 160px;
   height: 160px;
@@ -18,9 +18,9 @@
   content: "";
 }
 
-.hero{
+.about-hero{
   background-image:
-  url("../images/about__us/herobgi.png");
+  url("../images/about__us/herobgi.png"); 
   background-repeat: no-repeat;
   background-size: 710px 596px;
   background-position: calc(50% + 405px) calc(100%);
@@ -39,18 +39,18 @@
 
 
 
-.hero__inner{
+.about-hero__inner{
   padding-top: 154px;
   padding-bottom: 250px;
 }
 
 
-.hero__left{
+.about-hero__left{
   margin-left: 150px;
   width: 372px;
 }
 
-.hero__title{
+.about-hero__title{
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -60,7 +60,7 @@
   margin-bottom: 24px;
 }
 
-.hero__desc{
+.about-hero__desc{
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -85,3 +85,25 @@
   border: 0;
   border-radius: 100px;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .hero {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  
+  .hero{
+    background-image:
+    url("../images/about__us/herobgi@2x.png");
+  }
+
+  .hero::before{
+  background-image: url("../images/hero@2x.png");
+  }
+} 

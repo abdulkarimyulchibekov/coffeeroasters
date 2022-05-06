@@ -44,7 +44,6 @@
   margin: 0;
   margin-bottom: 60px;
   padding: 0;
-  
   background-image: url("../images/how.png");
   background-repeat: no-repeat;
   background-size: 899px 4px;
@@ -126,3 +125,25 @@
   border-radius: 100px;
   padding: 16px 24px;
 }
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .how__inner {
+  background-image: url("../images/header-bgi@2x.png");
+  }
+
+  .how__inner::after{
+  background-image: url(../images/howafter.png);
+  }
+
+  .how__list{
+  background-image: url("../images/how@2x.png");
+  }
+} 
