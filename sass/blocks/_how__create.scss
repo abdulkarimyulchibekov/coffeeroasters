@@ -1,0 +1,103 @@
+/*============== HOW ===========*/
+
+.how-create{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.how__inner-create{
+  background-color: var(--main-how-bgi);
+  background-image: url("../images/header-bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how__list-create{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  background-image: url("../images/how.png");
+  background-repeat: no-repeat;
+  background-size: 899px 4px;
+  background-position: top 110px left 31px; 
+}
+
+.subitem-create{
+  margin-bottom: 80px;
+}
+
+.subitem__box-create{
+  display: inline-block;
+  background-color: var(--main-collection-bgc);
+  border: 4px solid #C99B67;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.subitem__text-create{
+  background-color: var(--main-collection-bgc);
+}
+
+
+.subitem__number-create{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  font-variant: small-caps;
+  color: var(--main-color);
+  opacity: 0.8;
+  text-align: right;
+  margin: 0;
+  margin-bottom: 45px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.subitem__title-create{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  color: var(--main-color);
+  margin: 0;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 231px;
+}
+
+.subitem__desc-create{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-color);
+  width: 385px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .how__inner-create {
+  background-image: url("../images/header-bgi@2x.png");
+  }
+
+  .how__list-create{
+  background-image: url("../images/how@2x.png");
+  }
+} 

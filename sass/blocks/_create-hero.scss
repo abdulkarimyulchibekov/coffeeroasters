@@ -1,0 +1,96 @@
+/* =====================================
+================= HERO ================ 
+======================================*/
+
+main{
+  position: relative;
+}
+
+.hero-create{
+  padding-top: 45px;
+  margin-bottom: 20px;
+}
+
+.hero-create::before{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-image: url("../images/hero.png");
+  background-size: 160px 160px;
+  top: -57px;
+  left: calc(50% - 110px);
+  display: block;
+  content: "";
+}
+
+.hero-create{
+  background-image:
+  url("../../images/hero-create-main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 350px) calc(100%);
+}
+
+
+.hero-create__section{
+  position: relative;
+  background-color: var(--main-hero-bgc);
+  background-image: url("../images/header-bgi.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: left top;
+  background-blend-mode: overlay;
+}
+
+
+
+.hero-create__inner{
+  padding-top: 154px;
+  padding-bottom: 250px;
+}
+
+
+.hero-create__left{
+  width: 464px;
+}
+
+.hero-create__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: var(--main-color);
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.hero-create__desc{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 34px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .hero-create__section {
+    background-image: url("../images/header-bgi@2x.png");
+  }
+  
+  .hero-create::before{
+    background-image: url("../images/hero@2x.png");
+  }
+  
+  .hero-create{
+    background-image:url("../../images/hero-create-main@2x.png");
+  }
+} 
